@@ -68,6 +68,7 @@ export const ProjectsBundle = Bundler({
   ProtectedBranches: APIServices.ProtectedBranches,
   ProtectedTags: APIServices.ProtectedTags,
   ProjectVariables: APIServices.ProjectVariables,
+  Releases: APIServices.Releases,
   Repositories: APIServices.Repositories,
   RepositoryFiles: APIServices.RepositoryFiles,
   Runners: APIServices.Runners,
