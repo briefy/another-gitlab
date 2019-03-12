@@ -1,0 +1,22 @@
+engines:
+  tslint:
+    enabled: true
+    config: tslint.yml
+  shellcheck:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+        typescript:
+          mass_threshold: 65
+
+ratings:
+  paths:
+    - "**.ts"
+
+exclude_paths:
+  - node_modules
+  - typings
+  - coverage
+  - dist
